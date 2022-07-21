@@ -42,7 +42,7 @@ int calc(vector<int>& bruh, int start, int end) {
 			ret -= bruh[i];
 		}
 	}
-	return abs(ret);
+	return ret;
 }
 
 class Solution {
